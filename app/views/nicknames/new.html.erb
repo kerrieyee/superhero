@@ -1,0 +1,14 @@
+<h1> NEW </h1>
+<%= form_for @nickname do |f|%>
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div>
+    <%= f.label :super_hero %>
+    <%= f.text_field :super_hero %>
+  </div>
+  <div>
+    <%= f.submit %>
+  </div>
+<%end%>

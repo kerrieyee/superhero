@@ -1,0 +1,12 @@
+<h1> Nicknames </h1>
+<%@nicknames.each do |n|%>
+  <div class="left-column">
+    Name
+    <%=n.name%>
+  </div>
+  <div class="right-column">
+    Generated Name:
+    <%=n.generated_name%>
+  </div>
+  <br/>
+<%end%>
